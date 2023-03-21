@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../css/escola.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>EducAção</title>
+</head>
+<body>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light p-3"  id="bg-navbar">
+            <a class="navbar-brand pl-5" href="./index.html">
+                <img src="../imgs/icon4.png" width="195">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-5 px-5" id="navbarNavDropdown" >
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a id="link-blog"class="nav-link disabled pr-2" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a  id="link-fale" class="nav-link pr-2" href="./FAQ.html">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item dropdown pl-2">
+                        <a id="link-login"class="nav-link" href="#" >
+                            Login
+                        </a>
+                    </li>
+                    <li id="btn" class="nav-item dropdown pr-2">
+                        <a id="link-cadastro" class="nav-link" href="#" >
+                            Cadastro
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        
+    <main class="container-fluid p-0 m-0">
+        <div class="container-fluid"> 
+            <div class="row">
+                <img src="../imgs/passo1.png" class="p-5 mx-auto img-fluid" width="90%">
+            </div>
+        </div>
+        <div class="container my-3 px-5">
+            
+            <div class="row justify-content-sm-center">
+                <h3 id="titulo" class="display-5">Informe sua localização para indicarmos escolas perto de você</h3>
+                <p id="frase-3" class="pt-2">As escolas estão separadas por município </p>
+            </div>
+
+            <div class="container">
+
+                <form class="form-inline justify-content-center">
+                    <div class="form-group px-2 m-0 mb-2">
+                        <select class=" form-control" id="uf" name="uf" required>
+                            <option value="" disabled>UF</option>
+                            <option value="RJ" >Rio de Janeiro</option>
+                        </select>
+                    </div>
+                    <div class="form-group px-2 m-0 mb-2">
+                        <select class="form-control" id="cidade" name="cidade" required>
+                            <option value="" disabled>Município</option>
+                            <option value="Paty do Alferes">Paty do Alferes</option>
+                        </select>
+                    </div>
+                    <button id="localidade" type="submit" class="btn btn-primary mb-2 px-2">Buscar</button>
+                
+                    
+
+                </form>
+            </div>
+            
+               
+            <div class="container">
+
+                <form action='./cards_alunos.html' class="my-3">
+                    <div id="form-escolas">
+
+                    </div>
+
+                    <div class="text-center" id="div-botoes">
+                        <button id="busca-alunos" type="submit" class='btn btn-default'>Continuar</button>
+                    </div>
+                </form>
+            
+            </div>
+
+        </div>
+        
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    
+    <script type="text/javascript" src="../js/escola.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

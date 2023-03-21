@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../css/aluno.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>EducAção</title>
+</head>
+<body>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light p-3"  id="bg-navbar">
+            <a class="navbar-brand pl-5" href="./index.html">
+                <img src="../imgs/icon4.png" width="195">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-5 px-5" id="navbarNavDropdown" >
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a id="link-blog"class="nav-link disabled pr-2" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a  id="link-fale" class="nav-link pr-2" href="./FAQ.html">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item dropdown pl-2">
+                        <a id="link-login"class="nav-link" href="#" >
+                            Login
+                        </a>
+                    </li>
+                    <li id="btn" class="nav-item dropdown pr-2">
+                        <a id="link-cadastro" class="nav-link" href="#" >
+                            Cadastro
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        
+    <main class="container-fluid p-0 m-0">
+
+        <div class="container-fluid"> 
+            <div class="row">
+                <img src="../imgs/passo3.png"  class="p-5 mx-auto img-fluid" width="90%">
+            </div>
+        </div>
+        <div class="container my-5" id="dados-aluno">
+            <div class="row my-5">
+                <a id="anterior" type="button" href="" class="btn btn-default">&larr; Anterior</a>
+            </div>   
+            
+            
+            <div class="row py-3">
+                <div class="col col-sm-3" id="avatar-aluno"></div>
+                <div class="col col-sm-9">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-body" id="escrita"> 
+                                <h5 class="card-title" id="escola-aluno"></h5>
+                                <h5 class="card-title" id="nivel-aluno"></h5>
+                                <p class="card-text" id="localidade-aluno"></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body" id="escrita">
+                                <h5 class="card-title" id="title-sonho">Meu sonho é:</h5>
+                                <p class="card-text" id="sonho-aluno"></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <form action="">
+                <h2 id="titulo">Lista de Material</h2>
+                <p id="frase-3"><em>Selecione os itens que você gostaria de doar</em></p>
+                <div class="form-lista">
+                    
+                </div>
+                <div class="row my-3" id="botoes-doar">
+
+                    <div class="col-lg-6 text-center">
+                        <p id="sub-btn"class="m-0 p-0 pt-3" data-toggle="tooltip" data-placement="top" title="A retirada do material será feita no endereço informado"><em>Tenho os itens em mãos</em></p>
+                        <button id="agenda" type="button" class="btn btn-default" data-toggle="modal" data-target=".bd-example-modal-lg">
+                            Agendar retirada da doação
+                        </button>
+
+                        <div class="modal fade bd-example-modal-lg" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalLabel">Agendar a retirada da doação</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body" id="pop-up">
+                                        <div class="row">
+                                            <img src="../imgs/passo4.png"  class="p-5 mx-auto img-fluid">
+                                        </div>
+                                        <p id="titulo-n"><h2>Conclua a sua doação </h2></p>
+                                        <p id="sub-btn">Obrigado por chegar até aqui! Agende data e hora, de acordo com a sua disponibilidade, para buscarmos sua doação.</p>
+                                        
+                                        <form id="formAgendar">
+
+                                            <div class="container px-5">
+                                                <p id="titulo-n">Informações da retirada</p>
+                                                <div id="info-pes" class="form-group px-3">
+
+                                                    <div class="row">
+                                                        <div class="col p-3">
+                                                            <input type="date" class="form-control" id="data" name="data">
+                                                        </div>
+                                                        <div class="col p-3">
+                                                            <input type="time" class="form-control" id="hora" name="hora">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="cep" name="cep" placeholder="  CEP">
+                                                        </div>
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="endereco" name="endereco" placeholder="  Rua/Avenida/Estrada/...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="numero" name="numero" placeholder="  n°">
+                                                        </div>
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="complemento" name="complemento" placeholder="  Apt/Casa/Lote...">
+                                                        </div>
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="bairro" name="bairro" placeholder="  Bairro">   
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="cidade" name="cidade" placeholder="  Cidade">
+                                                        </div>
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="uf" name="uf" placeholder="  UF">
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div class="container px-5">
+                                                <p id="titulo-nu">Informações pessoais</p>
+                                                <div id="info-pes" class="form-group px-3">
+
+                                                    <div class="row">
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="nome" name="nome" placeholder="  Nome Completo">
+                                                        </div>
+                                        
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="  CPF">
+                                                        </div>
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="telefone" name="telefone" placeholder="(DDD)Telefone">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col p-3">
+                                                            <input type="text" class="form-control" id="email" name="email" placeholder="  E-mail">
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                </div>
+                                                
+                                            </div>
+
+                                        </form>
+                                        <div id="mensagem">
+                
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal" onClick="window.location.reload()">Fechar</button>
+                                        <button type="submit" class="btn btn-primary" id="botao-agendar">Agendar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-lg-6 text-center">
+                        <p id="sub-btn" class="m-0 p-0 pt-3" data-toggle="tooltip" data-placement="top" title="Realizar a compra em uma das nossas papelarias parceiras"><em>Não tenho os itens em mãos</em></p>
+                        <button id="realizar" type="button" class="btn btn-success" disabled>
+                            Comprar em lojas parceiras
+                        </button>
+                    </div>
+                    
+                </div>
+            </form>
+
+        </div>
+               
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+    <script type="module" src="../js/aluno-escolhido.js"></script>
+    <script type="module" src="../js/mudaStatusKit.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+
+</body>
+</html>

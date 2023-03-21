@@ -1,0 +1,200 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../css/Poppins-Medium.ttf);
+}
+#sociais{
+    position:fixed;
+    width: 30px;
+    height: 30px;
+    margin-left: -30px ;
+    z-index: 1;
+}
+#btn{
+    background-color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+#bg-navbar{
+    background-color: #1E1E1E;
+    font-family: Poppins;
+}
+#bg-index {
+    background-image: url('../imgs/principal2.png');
+    background-position:80%;
+}
+
+.bg-sobre{
+    background-color: #F8F8F8;
+}
+
+#bg-rodape {
+    background-color: #1E1E1E;
+    font-family: Poppins;
+}
+#button-doar{
+    background-color: #37B4AA;
+    font-family: Poppins;
+}
+#link-blog{
+    font-family: Poppins;
+    color: white;
+}
+#link-login{
+    font-family: Poppins;
+    color: white;
+}
+#link-cadastro{
+    font-family: Poppins;
+    color: white;
+    color: #FDC320;
+}
+#link-fale{
+    font-family: Poppins;
+    color: white;
+}
+#button-doar{
+    color:white;
+}
+#frase-1{
+    font-family: Poppins;
+    color: white;
+}
+#titulo{
+    font-family: Poppins;
+}
+#frase-3{
+    font-family: Poppins;
+    font-size: medium;
+    color:rgb(68, 66, 66);
+}
+#titulo-n{
+    font-family: Poppins;
+    font-weight: bold;
+}
+#num{
+    font-family: Poppins;
+    font-weight: bold;
+    color: #37B4AA;
+}
+#titulo-rodape{
+    font-weight: bold;
+    color: white;
+    font-family: Poppins;
+}
+#link-rodape{
+    text-decoration: none;
+    color:white;
+}
+#pi{
+    box-shadow: 5px 5px 0 rgb(124, 123, 123);
+}
+#equi{
+    box-shadow: 5px 5px 0 rgb(124, 123, 123);
+}
+#uni{
+    box-shadow: 5px 5px 0 rgb(124, 123, 123);
+}
+#mater{
+    box-shadow: 5px 5px 0 rgb(124, 123, 123);
+} 
+#doa{
+    border:3px rgb(65, 64, 64);
+    border-radius: 10px;
+    margin:4px;
+    box-shadow: 2px 2px 0 rgb(124, 123, 123);   
+}
+@media (width:2560px){
+    * {
+        padding:0px;
+        margin:0px;
+        vertical-align:baseline;
+        list-style:none;
+        border:0;
+    }
+    #bg-index{
+        background-image: url('../imgs/4k.png');
+
+        background-position:65% 35%;
+    }
+}    
+@media (width:1440px){
+    * {
+        padding:0px;
+        margin:0px;
+        vertical-align:baseline;
+        list-style:none;
+        border:0;
+    }
+    #bg-index{
+        background-image: url('../imgs/boy-330582\ 1.png');
+
+        background-position:50% 30%;
+    }
+}    
+@media (width:768px){
+    * {
+        padding:0px;
+        margin:0px;
+        vertical-align:baseline;
+        list-style:none;
+        border:0;
+    }
+    #bg-index{
+        background-image: url('../imgs/boy-330582\ 1.png');
+
+        background-position:75% ;
+    }
+}    
+@media (width:425px){
+    * {
+        padding:0px;
+        margin:0px;
+        vertical-align:baseline;
+        list-style:none;
+        border:0;
+    }
+    #bg-index{
+        background-image: url('../imgs/boy-330582\ 1.png');
+
+        background-position:65% 70%;
+    }
+}    
+@media (width:375px){
+    * {
+        padding:0px;
+        margin:0px;
+        vertical-align:baseline;
+        list-style:none;
+        border:0;
+    }
+    #bg-index{
+        background-image: url('../imgs/boy-330582\ 1.png');
+
+        background-position:65% 70%;
+    }
+}    
+@media (width:320px){
+    * {
+        padding:0px;
+        margin:0px;
+        vertical-align:baseline;
+        list-style:none;
+        border:0;
+    }
+    #bg-index{
+        background-image: url('../imgs/boy-330582\ 1.png');
+
+        background-position:65% 70%;
+    }    
+    #sociais{
+        position: fixed;
+        margin-top: 200px;
+        width: 30px;
+        height: 30px;
+        z-index: 1;
+    }
+}

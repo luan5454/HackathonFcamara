@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <lik 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../css/FAQ.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>EducAção</title>
+</head>
+<body>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light p-3"  id="bg-navbar">
+            <a class="navbar-brand pl-5" href="./index.html">
+                <img src="../imgs/icon4.png" width="195">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-5 px-5" id="navbarNavDropdown" >
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a id="link-blog"class="nav-link disabled pr-2" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a  id="link-fale" class="nav-link pr-2" href="./FAQ.html">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item dropdown pl-2">
+                        <a id="link-login"class="nav-link" href="#" >
+                            Login
+                        </a>
+                    </li>
+                    <li id="btn" class="nav-item dropdown pr-2">
+                        <a id="link-cadastro" class="nav-link" href="#" >
+                            Cadastro
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main class="container-fluid p-0 m-0">
+        <div class="container text-center p-5">
+
+            <div class="my-3">
+                <h1 id="titulo" class="display-5">Bem-vindo(a) ao nosso FAQ </h1>
+                <p id="frase-3" class="lead">Aqui estão algumas respostas para perguntas feitas frequentemente</p>
+            </div>
+            
+          
+            <div class="row text-justify mt-5" id="escrita">
+                <div class="col px-5">
+                    <div class="row"><img  src="../imgs/question.png" width="30" height="30"></div>
+                        <h4 id="titulo">Como posso doar?</h4>
+                    <p id="sub-btn" class="">Você pode agendar a retirada dos itens na sua casa ou fazer uma compra on-line no site da nossa loja parceira. </p>
+                    <div class="row"><img  src="../imgs/question.png" width="30" height="30"><h4 id="titulo">Posso comprar em outra loja on-line?</h4> </div>
+                    <p id="sub-btn" class="">Pode, mas neste caso, você deverá agendar a retirada na sua casa quando estiver com os itens em mãos. Não fornecemos o endereço dos alunos.</p>
+                    <div class="row"><img  src="../imgs/question.png" width="30" height="30"> <h4 id="titulo">Posso fazer uma doação em dinheiro?</h4> </div>
+                    <p id="sub-btn" class="">No momento, não estamos aceitando doações em dinheiro. Em breve, teremos esta opção. </p>
+                </div>
+                <div class="col px-5">
+                    
+                    <div class="row"><img  src="../imgs/question.png" width="30" height="30"> <h4 id="titulo">Quem irá retirar os itens em minha casa?</h4> </div>
+                    <p id="sub-btn" class="">Nossos representantes estarão uniformizados e identificados. Além disso, estarão com a via da doação e uma guia de recebimento. </p>
+                    <div class="row"><img  src="../imgs/question.png" width="30" height="30"> <h4 id="titulo">Serei notificado quando o aluno receber a doação? </h4> </div>
+                    <p  id="sub-btn" class="">Sim. O doador e o aluno receberão notificações sobre o andamento do processo. </p>
+                    <div class="row"><img  src="../imgs/question.png" width="30" height="30"> <h4 id="titulo">Posso doar itens que já tenho em mãos? </h4> </div>
+                    <p id="sub-btn" class="">Sim, desde que estejam em bom estado. </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container text-center p-5">
+            <div>
+                <h1 id="titulo" class="display-5">Mais alguma dúvida?</h1>
+                <p id="sub-btn" class="lead p-3">Envie uma mensagem para nós ou entre em contato com as informações abaixo</p>
+            </div>
+
+            <form class="mx-auto" id="form-contato" action='' method="POST">
+                <div class="row justify-content-md-center">
+                    <div class="col col-md-7">
+                        <div class="form-group" id="titulo">
+                            <label for="name"><b>Nome:</b></label>
+                            <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome completo" required>
+                        </div>
+                        <div class="form-group" id="titulo">
+                            <label for="email"><b>E-mail:</b></label>
+                            <input class="form-control" type="text" name="email" id="email" placeholder="email@email.com" required>
+                        </div>
+                        <div class="form-group" id="titulo">
+                            <label for= "assunto"><b>Assunto:</b></label>
+                            <select class="form-control" name="assunto" id="assunto" required>
+                                <option hidden disabled selected value>Escolha uma opção</option>
+                                <option value="crítica">Crítica</option>
+                                <option value="elogio">Elogio</option>
+                                <option value="informação">Informação</option>
+                                <option value="sugestão">Sugestão</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group" id="titulo">
+                            <label for="mensagem"><b>Mensagem: </b></label>
+                            <textarea class="form-control" name="mensagem" id="mensagem" rows="10" placeholder="Deixe aqui sua mensagem" required></textarea><br>
+                        </div>
+                        <div class="text-center mb-5">
+                            <button id="enviar-mensagem" class="btn btn-default" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+               
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="container-fluid p-5" id="bg-rodape">
+        <div class="row">
+            <div class="col">
+                <p>      
+                    <img src="../imgs/icon4.png" width="256" height="76" >
+                </p>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <p ><a id="link-rodape" href="#">REDES SOCIAIS</a></p>
+                        <p><img src='../imgs/facebook.png' width="30" height="30"><a id="link-rodape" href="#">Facebook</a></p>
+                        <p><img src='../imgs/instagram.png' width="30" height="30"><a id="link-rodape" href="#">Instagram</a></p>
+                    </div>
+
+                    <div class="col">
+                        <p><a id="link-rodape"  href="#">PROJETO</a</p>
+                        <p><a id="link-rodape" href="#">Quem Somos</a></p>
+                        <p><a id="link-rodape" href="#">Política de Privacidade</a></p>
+                    </div>
+
+                    <div class="col">
+                        <p><a id="link-rodape" href="#">CONTATO</a></p>
+                        <p><a id="link-rodape" href="#">contato@projeto.com</a></p>
+                        <p><a id="link-rodape" href="#">0800 775 5531</a></p>                    
+                    </div>
+                </div> 
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="../js/mensagem.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

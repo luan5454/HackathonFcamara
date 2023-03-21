@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../css/Poppins-Medium.ttf);
+}
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+#btn{
+    background-color: white;
+    border-radius: 10px;
+} 
+a {
+    text-decoration: none;
+    color:white;
+}
+#bg-navbar{
+    background-color: #1E1E1E;
+    font-family: Poppins;
+}
+#link-blog{
+    font-family: Poppins;
+    color: white;
+}
+#link-login{
+    font-family: Poppins;
+    color: white;
+}
+#link-cadastro{
+    font-family: Poppins;
+    color: white;
+    color: #FDC320;
+}
+#link-fale{
+    font-family: Poppins;
+    color: white;
+}
+#button-doar{
+    color:white;
+}
+#frase-1{
+    font-family: Poppins;
+    color: white;
+}
+#titulo{
+    font-family: Poppins;
+}
+#frase-3{
+    font-family: Poppins;
+    font-size: medium;
+    color:rgb(68, 66, 66);
+}
+#titulo-n{
+    font-family: Poppins;
+    font-weight: bold;
+}
+#titulo-rodape{
+    font-weight: bold;
+    color: white;
+    font-family: Poppins;
+}
+select{
+    font-family: Poppins;
+}
+#busca-alunos{
+    background-color: #37B4AA;
+    font-family: Poppins;
+    color: white;
+}
+#anterior{
+    background-color: #37B4AA;
+    font-family: Poppins;
+    color: white;
+}
+#localidade{
+    background-color: #37B4AA;
+    font-family: Poppins;
+    color: white;
+}
+#sel{
+    font-family: Poppins;
+    border-radius: 5px;
+    border: 1px solid rgb(155, 153, 153);
+}
+#desc{
+    margin:0;
+    margin-top: 25px;
+    margin-left:-140px;
+    font-size: small;
+    color: rgb(155, 151, 151);
+}
+#escrita{
+    font-family: Poppins;
+}
+#agenda{
+    background-color: #37B4AA;
+    font-family: Poppins;
+    color: white;
+}
+#realizar{
+    background-color: #37B4AA;
+    font-family: Poppins;
+    color: white;
+}
+#sub-btn{
+    font-family: Poppins;
+    color: grey;
+}
+#pop-up{
+    font-family: Poppins;
+}
+#modalLabel{
+    font-weight: bold;
+}
+input{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 5px;
+}
+#botao-agendar{
+    background-color: #37B4AA;
+    font-family: Poppins;
+    color: white;
+}
+#info-ret{
+    border: 1px solid silver;
+    border-radius: 10px;
+    text-align: left;
+}
+#titulo-nu{
+    font-family: Poppins;
+    font-weight: bold;
+}
+#info-pes{
+    border: 1px solid silver;
+    border-radius: 10px;
+    text-align: left;
+}
